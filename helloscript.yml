@@ -1,0 +1,8 @@
+--- # Executing shell script using playbook
+- hosts: localhost
+  tasks:
+          - name: executing a shell script
+            shell: hello.sh >> helloscript.txt
+
+
+          
